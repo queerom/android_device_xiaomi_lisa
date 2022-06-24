@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- fix dumb mistake not allowing me to set the clock to the middle of the status bar >:( -->
+    <bool name="config_haveNotch">false</bool>
+</resources>
