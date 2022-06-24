@@ -27,3 +27,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Xiaomi/lisa_global/lisa:12/RKQ1.211001.001/V13.0.4.0.SKOMIXM:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := $(BUILD_FINGERPRINT)
