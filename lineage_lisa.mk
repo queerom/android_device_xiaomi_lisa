@@ -17,7 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Xiaomi 11 Lite NE
+PRODUCT_MODEL := 2109119DG
 PRODUCT_NAME := lineage_lisa
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
