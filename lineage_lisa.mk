@@ -22,9 +22,8 @@ PRODUCT_NAME := lineage_lisa
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#PRODUCT_BUILD_PROP_OVERRIDES += \
-#    PRIVATE_BUILD_DESC="lisa_global-user 12 RKQ1.211001.001 V13.0.4.0.SKOMIXM release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="lisa_global-user 12 RKQ1.211001.001 V13.0.5.0.SKOMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-#BUILD_FINGERPRINT := Xiaomi/lisa_global/lisa:12/RKQ1.211001.001/V13.0.4.0.SKOMIXM:user/release-keys
-#PRODUCT_OVERRIDE_FINGERPRINT := $(BUILD_FINGERPRINT)
+BUILD_FINGERPRINT := Xiaomi/lisa_global/lisa:12/RKQ1.211001.001/V13.0.5.0.SKOMIXM:user/release-keys

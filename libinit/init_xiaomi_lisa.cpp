@@ -9,6 +9,8 @@
 
 #include "vendor_init.h"
 
+#define FINGERPRINT "Xiaomi/lisa_global/lisa:12/RKQ1.211001.001/V13.0.5.0.SKOMIXM:user/release-keys"
+
 static const variant_info_t lisa_global_info = {
     .hwc_value = "GL",
     .sku_value = "",
@@ -17,7 +19,7 @@ static const variant_info_t lisa_global_info = {
     .device = "lisa_global",
     .marketname = "Xiaomi 11 Lite 5G NE",
     .model = "2109119DG",
-    .build_fingerprint = "Xiaomi/lisa_global/lisa:12/RKQ1.211001.001/V13.0.4.0.SKOMIXM:user/release-keys",
+    .build_fingerprint = FINGERPRINT,
 
     .nfc = true,
 };
@@ -28,9 +30,9 @@ static const variant_info_t lisa_india_info = {
 
     .brand = "Xiaomi",
     .device = "lisa_in",
-    .marketname = "Xiaomi 11 Lite NE 5G",
+    .marketname = "Xiaomi 11 Lite NE",
     .model = "2109119DI",
-    .build_fingerprint = "Xiaomi/lisa_in/lisa:12/RKQ1.211001.001/V13.0.4.0.SKOMIXM:user/release-keys",
+    .build_fingerprint = FINGERPRINT,
 
     .nfc = true,
 };
@@ -43,7 +45,7 @@ static const variant_info_t lisa_info = {
     .device = "lisa",
     .marketname = "Mi 11 LE",
     .model = "2107119DC",
-    .build_fingerprint = "Xiaomi/lisa/lisa:12/RKQ1.211001.001/V13.0.4.0.SKOMIXM:user/release-keys",
+    .build_fingerprint = FINGERPRINT,
 
     .nfc = true,
 };
@@ -58,3 +60,4 @@ void vendor_load_properties() {
     search_variant(variants);
     set_dalvik_heap();
 }
+
